@@ -1,0 +1,874 @@
+{
+  "Baseline": {
+    "total_puzzles": 1000,
+    "solved_count": 996,
+    "correct_count": 604,
+    "accuracy": 0.604,
+    "total_steps": 8472,
+    "avg_steps": 8.472,
+    "median_steps": 7.0,
+    "max_steps": 50,
+    "min_steps": 2,
+    "total_time": 0.5880100727081299,
+    "avg_time": 0.0005880100727081299,
+    "total_backtracks": 56,
+    "avg_backtracks": 0.056,
+    "by_size": {
+      "5*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 13.875,
+        "avg_time": 0.001308572292327881
+      },
+      "4*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 25,
+        "accuracy": 0.625,
+        "avg_steps": 8.2,
+        "avg_time": 0.0005726039409637452
+      },
+      "6*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 23,
+        "accuracy": 0.575,
+        "avg_steps": 12.425,
+        "avg_time": 0.001029837131500244
+      },
+      "6*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 33,
+        "accuracy": 0.825,
+        "avg_steps": 13.9,
+        "avg_time": 0.001402205228805542
+      },
+      "2*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 7,
+        "accuracy": 0.175,
+        "avg_steps": 3.35,
+        "avg_time": 5.0014257431030275e-05
+      },
+      "2*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 27,
+        "accuracy": 0.675,
+        "avg_steps": 5.0,
+        "avg_time": 0.0001747608184814453
+      },
+      "5*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 11.125,
+        "avg_time": 0.0009510874748229981
+      },
+      "3*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 31,
+        "accuracy": 0.775,
+        "avg_steps": 7.45,
+        "avg_time": 0.0003855109214782715
+      },
+      "4*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 9.4,
+        "avg_time": 0.0005867958068847656
+      },
+      "2*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 36,
+        "accuracy": 0.9,
+        "avg_steps": 6.2,
+        "avg_time": 0.00012492537498474122
+      },
+      "6*2": {
+        "total": 40,
+        "solved": 38,
+        "correct": 8,
+        "accuracy": 0.2,
+        "avg_steps": 8.1,
+        "avg_time": 0.0004598140716552734
+      },
+      "4*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 12,
+        "accuracy": 0.3,
+        "avg_steps": 6.2,
+        "avg_time": 0.00022454261779785155
+      },
+      "5*2": {
+        "total": 40,
+        "solved": 39,
+        "correct": 4,
+        "accuracy": 0.1,
+        "avg_steps": 6.425,
+        "avg_time": 0.00038409829139709475
+      },
+      "5*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 11.25,
+        "avg_time": 0.0008505284786224365
+      },
+      "2*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 18,
+        "accuracy": 0.45,
+        "avg_steps": 4.05,
+        "avg_time": 7.495880126953124e-05
+      },
+      "4*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 24,
+        "accuracy": 0.6,
+        "avg_steps": 7.7,
+        "avg_time": 0.0003247857093811035
+      },
+      "3*6": {
+        "total": 40,
+        "solved": 39,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 7.975,
+        "avg_time": 0.0003779947757720947
+      },
+      "4*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 11.4,
+        "avg_time": 0.000917506217956543
+      },
+      "3*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 17,
+        "accuracy": 0.425,
+        "avg_steps": 5.35,
+        "avg_time": 0.00013003349304199218
+      },
+      "2*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 35,
+        "accuracy": 0.875,
+        "avg_steps": 5.4,
+        "avg_time": 0.0001250326633453369
+      },
+      "6*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 34,
+        "accuracy": 0.85,
+        "avg_steps": 16.15,
+        "avg_time": 0.0020650506019592287
+      },
+      "5*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 16,
+        "accuracy": 0.4,
+        "avg_steps": 8.375,
+        "avg_time": 0.0005256533622741699
+      },
+      "3*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 12,
+        "accuracy": 0.3,
+        "avg_steps": 4.9,
+        "avg_time": 0.00027787089347839353
+      },
+      "3*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 31,
+        "accuracy": 0.775,
+        "avg_steps": 7.0,
+        "avg_time": 0.0004745364189147949
+      },
+      "6*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 20,
+        "accuracy": 0.5,
+        "avg_steps": 10.6,
+        "avg_time": 0.0009015321731567383
+      }
+    },
+    "composite_score": 50.43528581510233
+  },
+  "MRV": {
+    "total_puzzles": 1000,
+    "solved_count": 996,
+    "correct_count": 604,
+    "accuracy": 0.604,
+    "total_steps": 8502,
+    "avg_steps": 8.502,
+    "median_steps": 7.0,
+    "max_steps": 50,
+    "min_steps": 2,
+    "total_time": 0.5893764495849609,
+    "avg_time": 0.0005893764495849609,
+    "total_backtracks": 86,
+    "avg_backtracks": 0.086,
+    "by_size": {
+      "5*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 13.875,
+        "avg_time": 0.0013515770435333252
+      },
+      "4*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 25,
+        "accuracy": 0.625,
+        "avg_steps": 8.2,
+        "avg_time": 0.0005355477333068848
+      },
+      "6*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 23,
+        "accuracy": 0.575,
+        "avg_steps": 12.425,
+        "avg_time": 0.0010212302207946778
+      },
+      "6*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 33,
+        "accuracy": 0.825,
+        "avg_steps": 13.9,
+        "avg_time": 0.001436328887939453
+      },
+      "2*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 7,
+        "accuracy": 0.175,
+        "avg_steps": 3.35,
+        "avg_time": 4.9996376037597654e-05
+      },
+      "2*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 27,
+        "accuracy": 0.675,
+        "avg_steps": 5.0,
+        "avg_time": 0.0001758456230163574
+      },
+      "5*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 11.125,
+        "avg_time": 0.0009606778621673584
+      },
+      "3*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 31,
+        "accuracy": 0.775,
+        "avg_steps": 7.45,
+        "avg_time": 0.0002850770950317383
+      },
+      "4*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 9.4,
+        "avg_time": 0.0006200492382049561
+      },
+      "2*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 36,
+        "accuracy": 0.9,
+        "avg_steps": 6.2,
+        "avg_time": 0.00014986395835876466
+      },
+      "6*2": {
+        "total": 40,
+        "solved": 38,
+        "correct": 8,
+        "accuracy": 0.2,
+        "avg_steps": 8.85,
+        "avg_time": 0.0005443274974822998
+      },
+      "4*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 12,
+        "accuracy": 0.3,
+        "avg_steps": 6.2,
+        "avg_time": 0.00020996928215026854
+      },
+      "5*2": {
+        "total": 40,
+        "solved": 39,
+        "correct": 4,
+        "accuracy": 0.1,
+        "avg_steps": 6.425,
+        "avg_time": 0.00020654797554016114
+      },
+      "5*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 11.25,
+        "avg_time": 0.0008838295936584473
+      },
+      "2*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 18,
+        "accuracy": 0.45,
+        "avg_steps": 4.05,
+        "avg_time": 0.00014998912811279297
+      },
+      "4*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 24,
+        "accuracy": 0.6,
+        "avg_steps": 7.7,
+        "avg_time": 0.0005315959453582764
+      },
+      "3*6": {
+        "total": 40,
+        "solved": 39,
+        "correct": 30,
+        "accuracy": 0.75,
+        "avg_steps": 7.975,
+        "avg_time": 0.0004291832447052002
+      },
+      "4*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 11.4,
+        "avg_time": 0.0010214447975158691
+      },
+      "3*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 17,
+        "accuracy": 0.425,
+        "avg_steps": 5.35,
+        "avg_time": 0.0001496553421020508
+      },
+      "2*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 35,
+        "accuracy": 0.875,
+        "avg_steps": 5.4,
+        "avg_time": 7.497668266296387e-05
+      },
+      "6*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 34,
+        "accuracy": 0.85,
+        "avg_steps": 16.15,
+        "avg_time": 0.0022022485733032226
+      },
+      "5*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 16,
+        "accuracy": 0.4,
+        "avg_steps": 8.375,
+        "avg_time": 0.000557786226272583
+      },
+      "3*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 12,
+        "accuracy": 0.3,
+        "avg_steps": 4.9,
+        "avg_time": 0.00010003447532653808
+      },
+      "3*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 31,
+        "accuracy": 0.775,
+        "avg_steps": 7.0,
+        "avg_time": 0.00023967623710632324
+      },
+      "6*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 20,
+        "accuracy": 0.5,
+        "avg_steps": 10.6,
+        "avg_time": 0.0008469521999359131
+      }
+    },
+    "composite_score": 50.4
+  },
+  "MRV+FC": {
+    "total_puzzles": 1000,
+    "solved_count": 938,
+    "correct_count": 933,
+    "accuracy": 0.933,
+    "total_steps": 8208,
+    "avg_steps": 8.208,
+    "median_steps": 7.0,
+    "max_steps": 37,
+    "min_steps": 1,
+    "total_time": 0.5815322399139404,
+    "avg_time": 0.0005815322399139404,
+    "total_backtracks": 438,
+    "avg_backtracks": 0.438,
+    "by_size": {
+      "5*6": {
+        "total": 40,
+        "solved": 38,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 13.625,
+        "avg_time": 0.001560044288635254
+      },
+      "4*4": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.9,
+        "avg_time": 0.000307232141494751
+      },
+      "6*4": {
+        "total": 40,
+        "solved": 32,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 11.175,
+        "avg_time": 0.001072770357131958
+      },
+      "6*5": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 13.625,
+        "avg_time": 0.0013738632202148437
+      },
+      "2*2": {
+        "total": 40,
+        "solved": 34,
+        "correct": 33,
+        "accuracy": 0.825,
+        "avg_steps": 3.05,
+        "avg_time": 0.00019522905349731446
+      },
+      "2*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 5.0,
+        "avg_time": 0.00011159777641296386
+      },
+      "5*5": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 10.75,
+        "avg_time": 0.0008850276470184326
+      },
+      "3*5": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.225,
+        "avg_time": 0.0004003942012786865
+      },
+      "4*5": {
+        "total": 40,
+        "solved": 39,
+        "correct": 39,
+        "accuracy": 0.975,
+        "avg_steps": 9.3,
+        "avg_time": 0.0006753742694854736
+      },
+      "2*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 6.2,
+        "avg_time": 0.0002252638339996338
+      },
+      "6*2": {
+        "total": 40,
+        "solved": 37,
+        "correct": 36,
+        "accuracy": 0.9,
+        "avg_steps": 7.875,
+        "avg_time": 0.00041587352752685546
+      },
+      "4*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 6.2,
+        "avg_time": 0.00018009543418884277
+      },
+      "5*2": {
+        "total": 40,
+        "solved": 35,
+        "correct": 34,
+        "accuracy": 0.85,
+        "avg_steps": 5.9,
+        "avg_time": 0.0003002464771270752
+      },
+      "5*4": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 11.0,
+        "avg_time": 0.001091742515563965
+      },
+      "2*3": {
+        "total": 40,
+        "solved": 39,
+        "correct": 39,
+        "accuracy": 0.975,
+        "avg_steps": 4.0,
+        "avg_time": 7.729530334472656e-05
+      },
+      "4*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 7.7,
+        "avg_time": 0.0004354178905487061
+      },
+      "3*6": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.75,
+        "avg_time": 0.00038541555404663085
+      },
+      "4*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 11.4,
+        "avg_time": 0.0009190917015075683
+      },
+      "3*3": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 5.125,
+        "avg_time": 0.00015059113502502441
+      },
+      "2*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 5.4,
+        "avg_time": 0.00016200542449951172
+      },
+      "6*6": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 15.875,
+        "avg_time": 0.0018777787685394288
+      },
+      "5*3": {
+        "total": 40,
+        "solved": 35,
+        "correct": 35,
+        "accuracy": 0.875,
+        "avg_steps": 7.75,
+        "avg_time": 0.0004985213279724121
+      },
+      "3*2": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 4.675,
+        "avg_time": 0.00013722181320190429
+      },
+      "3*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0002765953540802002
+      },
+      "6*3": {
+        "total": 40,
+        "solved": 33,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 9.7,
+        "avg_time": 0.0008236169815063477
+      }
+    },
+    "composite_score": 83.64580098800283
+  },
+  "Full": {
+    "total_puzzles": 1000,
+    "solved_count": 938,
+    "correct_count": 933,
+    "accuracy": 0.933,
+    "total_steps": 8156,
+    "avg_steps": 8.156,
+    "median_steps": 7.0,
+    "max_steps": 31,
+    "min_steps": 0,
+    "total_time": 0.8221840858459473,
+    "avg_time": 0.0008221840858459472,
+    "total_backtracks": 272,
+    "avg_backtracks": 0.272,
+    "by_size": {
+      "5*6": {
+        "total": 40,
+        "solved": 38,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 13.625,
+        "avg_time": 0.0019104540348052978
+      },
+      "4*4": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.875,
+        "avg_time": 0.0005846738815307618
+      },
+      "6*4": {
+        "total": 40,
+        "solved": 32,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 10.2,
+        "avg_time": 0.0015017390251159668
+      },
+      "6*5": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 13.6,
+        "avg_time": 0.0022349953651428223
+      },
+      "2*2": {
+        "total": 40,
+        "solved": 34,
+        "correct": 33,
+        "accuracy": 0.825,
+        "avg_steps": 3.05,
+        "avg_time": 5.218386650085449e-05
+      },
+      "2*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 5.0,
+        "avg_time": 0.00017538666725158691
+      },
+      "5*5": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 10.75,
+        "avg_time": 0.0013940393924713134
+      },
+      "3*5": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.225,
+        "avg_time": 0.00041123032569885255
+      },
+      "4*5": {
+        "total": 40,
+        "solved": 39,
+        "correct": 39,
+        "accuracy": 0.975,
+        "avg_steps": 9.3,
+        "avg_time": 0.0008316159248352051
+      },
+      "2*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 6.2,
+        "avg_time": 0.00027537941932678225
+      },
+      "6*2": {
+        "total": 40,
+        "solved": 37,
+        "correct": 36,
+        "accuracy": 0.9,
+        "avg_steps": 7.825,
+        "avg_time": 0.0006503522396087647
+      },
+      "4*2": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 6.2,
+        "avg_time": 0.000349581241607666
+      },
+      "5*2": {
+        "total": 40,
+        "solved": 35,
+        "correct": 34,
+        "accuracy": 0.85,
+        "avg_steps": 5.875,
+        "avg_time": 0.0004795074462890625
+      },
+      "5*4": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 11.0,
+        "avg_time": 0.0012685179710388184
+      },
+      "2*3": {
+        "total": 40,
+        "solved": 39,
+        "correct": 39,
+        "accuracy": 0.975,
+        "avg_steps": 4.0,
+        "avg_time": 7.495880126953124e-05
+      },
+      "4*3": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 7.7,
+        "avg_time": 0.0005075275897979736
+      },
+      "3*6": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 7.725,
+        "avg_time": 0.0006305694580078125
+      },
+      "4*6": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 11.4,
+        "avg_time": 0.0011765658855438232
+      },
+      "3*3": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 5.125,
+        "avg_time": 0.00017483234405517577
+      },
+      "2*5": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 5.4,
+        "avg_time": 0.00020728111267089843
+      },
+      "6*6": {
+        "total": 40,
+        "solved": 38,
+        "correct": 38,
+        "accuracy": 0.95,
+        "avg_steps": 15.85,
+        "avg_time": 0.003094083070755005
+      },
+      "5*3": {
+        "total": 40,
+        "solved": 35,
+        "correct": 35,
+        "accuracy": 0.875,
+        "avg_steps": 7.725,
+        "avg_time": 0.0007394492626190185
+      },
+      "3*2": {
+        "total": 40,
+        "solved": 37,
+        "correct": 37,
+        "accuracy": 0.925,
+        "avg_steps": 4.625,
+        "avg_time": 0.00017458200454711914
+      },
+      "3*4": {
+        "total": 40,
+        "solved": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0004340171813964844
+      },
+      "6*3": {
+        "total": 40,
+        "solved": 33,
+        "correct": 32,
+        "accuracy": 0.8,
+        "avg_steps": 9.625,
+        "avg_time": 0.001221078634262085
+      }
+    },
+    "composite_score": 83.70696306751354
+  }
+}

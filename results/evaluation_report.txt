@@ -1,0 +1,175 @@
+======================================================================
+CSP SOLVER EVALUATION REPORT
+Generated: 2025-12-09T11:16:30.669666
+======================================================================
+
+SUMMARY
+----------------------------------------------------------------------
+Solver                      Accuracy    Avg Steps    Composite
+----------------------------------------------------------------------
+Full                           93.3%          8.2        83.71
+MRV+FC                         93.3%          8.2        83.65
+Baseline                       60.4%          8.5        50.44
+MRV                            60.4%          8.5        50.40
+----------------------------------------------------------------------
+
+
+Baseline
+========================================
+Total puzzles:     1000
+Solved:            996 (99.6%)
+Correct:           604 (60.4%)
+Total steps:       8472
+Avg steps:         8.5
+Median steps:      7.0
+Avg backtracks:    0.1
+Total time:        0.59s
+Avg time:          0.6ms
+Composite score:   50.44
+
+By Size:
+  2*2: 7/40 correct, 3.4 avg steps
+  2*3: 18/40 correct, 4.0 avg steps
+  2*4: 27/40 correct, 5.0 avg steps
+  2*5: 35/40 correct, 5.4 avg steps
+  2*6: 36/40 correct, 6.2 avg steps
+  3*2: 12/40 correct, 4.9 avg steps
+  3*3: 17/40 correct, 5.3 avg steps
+  3*4: 31/40 correct, 7.0 avg steps
+  3*5: 31/40 correct, 7.5 avg steps
+  3*6: 30/40 correct, 8.0 avg steps
+  4*2: 12/40 correct, 6.2 avg steps
+  4*3: 24/40 correct, 7.7 avg steps
+  4*4: 25/40 correct, 8.2 avg steps
+  4*5: 32/40 correct, 9.4 avg steps
+  4*6: 32/40 correct, 11.4 avg steps
+  5*2: 4/40 correct, 6.4 avg steps
+  5*3: 16/40 correct, 8.4 avg steps
+  5*4: 30/40 correct, 11.2 avg steps
+  5*5: 30/40 correct, 11.1 avg steps
+  5*6: 37/40 correct, 13.9 avg steps
+  6*2: 8/40 correct, 8.1 avg steps
+  6*3: 20/40 correct, 10.6 avg steps
+  6*4: 23/40 correct, 12.4 avg steps
+  6*5: 33/40 correct, 13.9 avg steps
+  6*6: 34/40 correct, 16.1 avg steps
+
+MRV
+========================================
+Total puzzles:     1000
+Solved:            996 (99.6%)
+Correct:           604 (60.4%)
+Total steps:       8502
+Avg steps:         8.5
+Median steps:      7.0
+Avg backtracks:    0.1
+Total time:        0.59s
+Avg time:          0.6ms
+Composite score:   50.40
+
+By Size:
+  2*2: 7/40 correct, 3.4 avg steps
+  2*3: 18/40 correct, 4.0 avg steps
+  2*4: 27/40 correct, 5.0 avg steps
+  2*5: 35/40 correct, 5.4 avg steps
+  2*6: 36/40 correct, 6.2 avg steps
+  3*2: 12/40 correct, 4.9 avg steps
+  3*3: 17/40 correct, 5.3 avg steps
+  3*4: 31/40 correct, 7.0 avg steps
+  3*5: 31/40 correct, 7.5 avg steps
+  3*6: 30/40 correct, 8.0 avg steps
+  4*2: 12/40 correct, 6.2 avg steps
+  4*3: 24/40 correct, 7.7 avg steps
+  4*4: 25/40 correct, 8.2 avg steps
+  4*5: 32/40 correct, 9.4 avg steps
+  4*6: 32/40 correct, 11.4 avg steps
+  5*2: 4/40 correct, 6.4 avg steps
+  5*3: 16/40 correct, 8.4 avg steps
+  5*4: 30/40 correct, 11.2 avg steps
+  5*5: 30/40 correct, 11.1 avg steps
+  5*6: 37/40 correct, 13.9 avg steps
+  6*2: 8/40 correct, 8.8 avg steps
+  6*3: 20/40 correct, 10.6 avg steps
+  6*4: 23/40 correct, 12.4 avg steps
+  6*5: 33/40 correct, 13.9 avg steps
+  6*6: 34/40 correct, 16.1 avg steps
+
+MRV+FC
+========================================
+Total puzzles:     1000
+Solved:            938 (93.8%)
+Correct:           933 (93.3%)
+Total steps:       8208
+Avg steps:         8.2
+Median steps:      7.0
+Avg backtracks:    0.4
+Total time:        0.58s
+Avg time:          0.6ms
+Composite score:   83.65
+
+By Size:
+  2*2: 33/40 correct, 3.0 avg steps
+  2*3: 39/40 correct, 4.0 avg steps
+  2*4: 40/40 correct, 5.0 avg steps
+  2*5: 40/40 correct, 5.4 avg steps
+  2*6: 40/40 correct, 6.2 avg steps
+  3*2: 37/40 correct, 4.7 avg steps
+  3*3: 37/40 correct, 5.1 avg steps
+  3*4: 40/40 correct, 7.0 avg steps
+  3*5: 37/40 correct, 7.2 avg steps
+  3*6: 37/40 correct, 7.8 avg steps
+  4*2: 40/40 correct, 6.2 avg steps
+  4*3: 40/40 correct, 7.7 avg steps
+  4*4: 37/40 correct, 7.9 avg steps
+  4*5: 39/40 correct, 9.3 avg steps
+  4*6: 40/40 correct, 11.4 avg steps
+  5*2: 34/40 correct, 5.9 avg steps
+  5*3: 35/40 correct, 7.8 avg steps
+  5*4: 38/40 correct, 11.0 avg steps
+  5*5: 37/40 correct, 10.8 avg steps
+  5*6: 37/40 correct, 13.6 avg steps
+  6*2: 36/40 correct, 7.9 avg steps
+  6*3: 32/40 correct, 9.7 avg steps
+  6*4: 32/40 correct, 11.2 avg steps
+  6*5: 38/40 correct, 13.6 avg steps
+  6*6: 38/40 correct, 15.9 avg steps
+
+Full
+========================================
+Total puzzles:     1000
+Solved:            938 (93.8%)
+Correct:           933 (93.3%)
+Total steps:       8156
+Avg steps:         8.2
+Median steps:      7.0
+Avg backtracks:    0.3
+Total time:        0.82s
+Avg time:          0.8ms
+Composite score:   83.71
+
+By Size:
+  2*2: 33/40 correct, 3.0 avg steps
+  2*3: 39/40 correct, 4.0 avg steps
+  2*4: 40/40 correct, 5.0 avg steps
+  2*5: 40/40 correct, 5.4 avg steps
+  2*6: 40/40 correct, 6.2 avg steps
+  3*2: 37/40 correct, 4.6 avg steps
+  3*3: 37/40 correct, 5.1 avg steps
+  3*4: 40/40 correct, 7.0 avg steps
+  3*5: 37/40 correct, 7.2 avg steps
+  3*6: 37/40 correct, 7.7 avg steps
+  4*2: 40/40 correct, 6.2 avg steps
+  4*3: 40/40 correct, 7.7 avg steps
+  4*4: 37/40 correct, 7.9 avg steps
+  4*5: 39/40 correct, 9.3 avg steps
+  4*6: 40/40 correct, 11.4 avg steps
+  5*2: 34/40 correct, 5.9 avg steps
+  5*3: 35/40 correct, 7.7 avg steps
+  5*4: 38/40 correct, 11.0 avg steps
+  5*5: 37/40 correct, 10.8 avg steps
+  5*6: 37/40 correct, 13.6 avg steps
+  6*2: 36/40 correct, 7.8 avg steps
+  6*3: 32/40 correct, 9.6 avg steps
+  6*4: 32/40 correct, 10.2 avg steps
+  6*5: 38/40 correct, 13.6 avg steps
+  6*6: 38/40 correct, 15.8 avg steps

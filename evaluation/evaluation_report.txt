@@ -1,0 +1,87 @@
+======================================================================
+CSP SOLVER EVALUATION REPORT
+Generated: 2025-12-09T10:47:35.136936
+======================================================================
+
+SUMMARY
+----------------------------------------------------------------------
+Solver                      Accuracy    Avg Steps    Composite
+----------------------------------------------------------------------
+Baseline (no heuristics)       66.7%          8.7        59.02
+MRV only                       66.7%          8.7        59.02
+MRV + Forward Checking         33.3%         11.3        23.33
+Full (MRV+LCV+FC+AC3)          33.3%         11.3        23.33
+----------------------------------------------------------------------
+
+
+Baseline (no heuristics)
+========================================
+Total puzzles:     3
+Solved:            3 (100.0%)
+Correct:           2 (66.7%)
+Total steps:       26
+Avg steps:         8.7
+Median steps:      9.0
+Avg backtracks:    0.0
+Total time:        0.00s
+Avg time:          0.3ms
+Composite score:   59.02
+
+By Size:
+  3*2: 1/1 correct, 7.0 avg steps
+  3*3: 0/1 correct, 10.0 avg steps
+  4*2: 1/1 correct, 9.0 avg steps
+
+MRV only
+========================================
+Total puzzles:     3
+Solved:            3 (100.0%)
+Correct:           2 (66.7%)
+Total steps:       26
+Avg steps:         8.7
+Median steps:      9.0
+Avg backtracks:    0.0
+Total time:        0.00s
+Avg time:          0.3ms
+Composite score:   59.02
+
+By Size:
+  3*2: 1/1 correct, 7.0 avg steps
+  3*3: 0/1 correct, 10.0 avg steps
+  4*2: 1/1 correct, 9.0 avg steps
+
+MRV + Forward Checking
+========================================
+Total puzzles:     3
+Solved:            2 (66.7%)
+Correct:           1 (33.3%)
+Total steps:       34
+Avg steps:         11.3
+Median steps:      10.0
+Avg backtracks:    13.3
+Total time:        0.00s
+Avg time:          1.0ms
+Composite score:   23.33
+
+By Size:
+  3*2: 1/1 correct, 7.0 avg steps
+  3*3: 0/1 correct, 10.0 avg steps
+  4*2: 0/1 correct, 17.0 avg steps
+
+Full (MRV+LCV+FC+AC3)
+========================================
+Total puzzles:     3
+Solved:            2 (66.7%)
+Correct:           1 (33.3%)
+Total steps:       34
+Avg steps:         11.3
+Median steps:      10.0
+Avg backtracks:    13.3
+Total time:        0.00s
+Avg time:          1.0ms
+Composite score:   23.33
+
+By Size:
+  3*2: 1/1 correct, 7.0 avg steps
+  3*3: 0/1 correct, 10.0 avg steps
+  4*2: 0/1 correct, 17.0 avg steps

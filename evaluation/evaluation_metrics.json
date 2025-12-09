@@ -1,0 +1,170 @@
+{
+  "Baseline (no heuristics)": {
+    "total_puzzles": 3,
+    "solved_count": 3,
+    "correct_count": 2,
+    "accuracy": 0.6666666666666666,
+    "total_steps": 26,
+    "avg_steps": 8.666666666666666,
+    "median_steps": 9.0,
+    "max_steps": 10,
+    "min_steps": 7,
+    "total_time": 0.0010004043579101562,
+    "avg_time": 0.00033346811930338543,
+    "total_backtracks": 0,
+    "avg_backtracks": 0.0,
+    "by_size": {
+      "3*3": {
+        "total": 1,
+        "solved": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 10.0,
+        "avg_time": 0.0010004043579101562
+      },
+      "4*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 9.0,
+        "avg_time": 0.0
+      },
+      "3*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0
+      }
+    },
+    "composite_score": 59.019607843137244
+  },
+  "MRV only": {
+    "total_puzzles": 3,
+    "solved_count": 3,
+    "correct_count": 2,
+    "accuracy": 0.6666666666666666,
+    "total_steps": 26,
+    "avg_steps": 8.666666666666666,
+    "median_steps": 9.0,
+    "max_steps": 10,
+    "min_steps": 7,
+    "total_time": 0.0010058879852294922,
+    "avg_time": 0.0003352959950764974,
+    "total_backtracks": 0,
+    "avg_backtracks": 0.0,
+    "by_size": {
+      "3*3": {
+        "total": 1,
+        "solved": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 10.0,
+        "avg_time": 0.0
+      },
+      "4*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 9.0,
+        "avg_time": 0.0010058879852294922
+      },
+      "3*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0
+      }
+    },
+    "composite_score": 59.019607843137244
+  },
+  "MRV + Forward Checking": {
+    "total_puzzles": 3,
+    "solved_count": 2,
+    "correct_count": 1,
+    "accuracy": 0.3333333333333333,
+    "total_steps": 34,
+    "avg_steps": 11.333333333333334,
+    "median_steps": 10.0,
+    "max_steps": 17,
+    "min_steps": 7,
+    "total_time": 0.0030105113983154297,
+    "avg_time": 0.0010035037994384766,
+    "total_backtracks": 40,
+    "avg_backtracks": 13.333333333333334,
+    "by_size": {
+      "3*3": {
+        "total": 1,
+        "solved": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 10.0,
+        "avg_time": 0.0010106563568115234
+      },
+      "4*2": {
+        "total": 1,
+        "solved": 0,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 17.0,
+        "avg_time": 0.0009999275207519531
+      },
+      "3*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0009999275207519531
+      }
+    },
+    "composite_score": 23.33333333333333
+  },
+  "Full (MRV+LCV+FC+AC3)": {
+    "total_puzzles": 3,
+    "solved_count": 2,
+    "correct_count": 1,
+    "accuracy": 0.3333333333333333,
+    "total_steps": 34,
+    "avg_steps": 11.333333333333334,
+    "median_steps": 10.0,
+    "max_steps": 17,
+    "min_steps": 7,
+    "total_time": 0.0030062198638916016,
+    "avg_time": 0.0010020732879638672,
+    "total_backtracks": 40,
+    "avg_backtracks": 13.333333333333334,
+    "by_size": {
+      "3*3": {
+        "total": 1,
+        "solved": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 10.0,
+        "avg_time": 0.001007080078125
+      },
+      "4*2": {
+        "total": 1,
+        "solved": 0,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_steps": 17.0,
+        "avg_time": 0.0019991397857666016
+      },
+      "3*2": {
+        "total": 1,
+        "solved": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_steps": 7.0,
+        "avg_time": 0.0
+      }
+    },
+    "composite_score": 23.33333333333333
+  }
+}

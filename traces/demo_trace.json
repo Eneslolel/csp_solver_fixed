@@ -1,0 +1,1083 @@
+{
+  "puzzle_id": "demo_001",
+  "puzzle_size": "4*3",
+  "num_houses": 4,
+  "num_categories": 3,
+  "num_constraints": 5,
+  "solver_stats": {
+    "total_steps": 26,
+    "backtracks": 37,
+    "forward_checks": 37,
+    "arc_consistency_iterations": 1155,
+    "domains_pruned": 74,
+    "time_elapsed": 0.005498170852661133,
+    "solved": false
+  },
+  "trace": [
+    {
+      "step_number": 1,
+      "depth": 0,
+      "chosen_variable": [
+        "pet",
+        "bird"
+      ],
+      "chosen_value": 1,
+      "features": {
+        "depth": 0,
+        "num_assigned": 0,
+        "num_unassigned": 12,
+        "assignment_ratio": 0.0,
+        "min_domain_size": 1,
+        "max_domain_size": 4,
+        "avg_domain_size": 3.3333333333333335,
+        "std_domain_size": 0.8498365855987975,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 0,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 1,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 25
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 4,
+        "('name', 'bob')": 3,
+        "('name', 'carol')": 4,
+        "('name', 'david\\n    colors: red')": 4,
+        "('color', 'red')": 4,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 3,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'dog')": 3,
+        "('pet', 'cat')": 3,
+        "('pet', 'bird')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 3
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 2,
+      "depth": 1,
+      "chosen_variable": [
+        "name",
+        "bob"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 1,
+        "num_assigned": 1,
+        "num_unassigned": 11,
+        "assignment_ratio": 0.08333333333333333,
+        "min_domain_size": 3,
+        "max_domain_size": 4,
+        "avg_domain_size": 3.5454545454545454,
+        "std_domain_size": 0.49792959773196915,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 3,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 0,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 5,
+        "led_to_solution": false,
+        "backtrack_after": 24
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 4,
+        "('name', 'bob')": 3,
+        "('name', 'carol')": 4,
+        "('name', 'david\\n    colors: red')": 4,
+        "('color', 'red')": 4,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 3,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'dog')": 3,
+        "('pet', 'cat')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 3
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 3,
+      "depth": 2,
+      "chosen_variable": [
+        "pet",
+        "dog"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 2,
+        "num_assigned": 2,
+        "num_unassigned": 10,
+        "assignment_ratio": 0.16666666666666666,
+        "min_domain_size": 1,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.7,
+        "std_domain_size": 0.9,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 23
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'dog')": 1,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 4,
+      "depth": 3,
+      "chosen_variable": [
+        "color",
+        "green"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 3,
+        "num_assigned": 3,
+        "num_unassigned": 9,
+        "assignment_ratio": 0.25,
+        "min_domain_size": 2,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.888888888888889,
+        "std_domain_size": 0.7370277311900889,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 0,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 7
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 5,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 6
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 6,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 7,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "backtrack"
+    },
+    {
+      "step_number": 8,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 3
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 9,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 10,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 5,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "backtrack"
+    },
+    {
+      "step_number": 11,
+      "depth": 2,
+      "chosen_variable": [
+        "pet",
+        "dog"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 2,
+        "num_assigned": 2,
+        "num_unassigned": 10,
+        "assignment_ratio": 0.16666666666666666,
+        "min_domain_size": 1,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.7,
+        "std_domain_size": 0.9,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 15
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'dog')": 1,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 12,
+      "depth": 3,
+      "chosen_variable": [
+        "color",
+        "green"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 3,
+        "num_assigned": 3,
+        "num_unassigned": 9,
+        "assignment_ratio": 0.25,
+        "min_domain_size": 2,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.888888888888889,
+        "std_domain_size": 0.7370277311900889,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 0,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 7
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 13,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 6
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 14,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 15,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "backtrack"
+    },
+    {
+      "step_number": 16,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 3
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 17,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 18,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 5,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "backtrack"
+    },
+    {
+      "step_number": 19,
+      "depth": 2,
+      "chosen_variable": [
+        "pet",
+        "dog"
+      ],
+      "chosen_value": 4,
+      "features": {
+        "depth": 2,
+        "num_assigned": 2,
+        "num_unassigned": 10,
+        "assignment_ratio": 0.16666666666666666,
+        "min_domain_size": 1,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.7,
+        "std_domain_size": 0.9,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 4,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 7
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'dog')": 1,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 20,
+      "depth": 3,
+      "chosen_variable": [
+        "color",
+        "green"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 3,
+        "num_assigned": 3,
+        "num_unassigned": 9,
+        "assignment_ratio": 0.25,
+        "min_domain_size": 2,
+        "max_domain_size": 4,
+        "avg_domain_size": 2.888888888888889,
+        "std_domain_size": 0.7370277311900889,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 0,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 6
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 3,
+        "('name', 'carol')": 3,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 3,
+        "('color', 'blue')": 4,
+        "('color', 'green')": 2,
+        "('color', 'yellow\\n    pets: dog')": 4,
+        "('pet', 'cat')": 2,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 2
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 21,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 5
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 22,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 23,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 4,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "backtrack"
+    },
+    {
+      "step_number": 24,
+      "depth": 4,
+      "chosen_variable": [
+        "pet",
+        "cat"
+      ],
+      "chosen_value": 3,
+      "features": {
+        "depth": 4,
+        "num_assigned": 4,
+        "num_unassigned": 8,
+        "assignment_ratio": 0.3333333333333333,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.125,
+        "std_domain_size": 0.7806247497997998,
+        "num_singleton_domains": 2,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 1,
+        "chosen_var_category_assigned_count": 2,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 3,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 2
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'cat')": 1,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 25,
+      "depth": 5,
+      "chosen_variable": [
+        "pet",
+        "fish\n    \n    clues:\n    1"
+      ],
+      "chosen_value": 2,
+      "features": {
+        "depth": 5,
+        "num_assigned": 5,
+        "num_unassigned": 7,
+        "assignment_ratio": 0.4166666666666667,
+        "min_domain_size": 1,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.2857142857142856,
+        "std_domain_size": 0.6998542122237652,
+        "num_singleton_domains": 1,
+        "chosen_var_domain_size": 1,
+        "chosen_var_constraint_count": 0,
+        "chosen_var_category_assigned_count": 3,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 2,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 1
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3,
+        "('pet', 'fish\\n    \\n    clues:\\n    1')": 1
+      },
+      "action_type": "assign"
+    },
+    {
+      "step_number": 26,
+      "depth": 6,
+      "chosen_variable": [
+        "name",
+        "alice"
+      ],
+      "chosen_value": null,
+      "features": {
+        "depth": 6,
+        "num_assigned": 6,
+        "num_unassigned": 6,
+        "assignment_ratio": 0.5,
+        "min_domain_size": 2,
+        "max_domain_size": 3,
+        "avg_domain_size": 2.5,
+        "std_domain_size": 0.5,
+        "num_singleton_domains": 0,
+        "chosen_var_domain_size": 2,
+        "chosen_var_constraint_count": 2,
+        "chosen_var_category_assigned_count": 1,
+        "total_constraints": 5,
+        "satisfied_constraints": 5,
+        "constraint_satisfaction_ratio": 1.0,
+        "chosen_value": 0,
+        "chosen_value_eliminates": 0,
+        "led_to_solution": false,
+        "backtrack_after": 0
+      },
+      "domain_snapshot": {
+        "('name', 'alice')": 2,
+        "('name', 'carol')": 2,
+        "('name', 'david\\n    colors: red')": 3,
+        "('color', 'red')": 2,
+        "('color', 'blue')": 3,
+        "('color', 'yellow\\n    pets: dog')": 3
+      },
+      "action_type": "failure"
+    }
+  ],
+  "generated_at": "2025-12-09T11:52:37.325292"
+}
