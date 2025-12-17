@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #Generate Results CSV for ZebraLogicBench
 #Outputs results in the required format:
   #id, grid_solution, steps
