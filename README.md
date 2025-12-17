@@ -20,6 +20,7 @@ A comprehensive Constraint Satisfaction Problem (CSP) solver for logic grid puzz
 ```
 csp_solver_fixed/
 ├── run_zebralogicbench.py  # Main entry point
+├── generate_results.py     # Generates the result.csv
 ├── data/
 │   └── data_parser.py      # Puzzle parsing and data loading
 ├── solver/
@@ -60,6 +61,9 @@ python run_zebralogicbench.py --data_file path/to/Gridmode.parquet
 
 # Specify output directory
 python run_zebralogicbench.py --output_dir ./my_results
+
+# To get the result.csv you need to run:
+generate_results.py
 ```
 
 ## Solver Configurations
